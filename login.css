@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bd{
+    background: #364859;
+    padding-bottom: auto;
+
+}
+#login{
+    width: 30%;
+    height: 0%;
+    border: 2px solid #364859;
+    margin-left: 40%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background: #89878a;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+#login .log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+  
+}
+#login .log h2{
+    background: transparent;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 35px 10px 35px;
+    margin-bottom: 10px;
+    border: 1px solid #364859;
+}
+#login .log .ep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login .log .ep input{
+    margin: 10px;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+}
+input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+.checkb{
+    font-size: 14px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.checkb input .cb{
+    width: 10px;
+    height: 10vh;
+    padding-left: 2px;
+}
+.btn{
+    background: #364859;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.sp{
+    color: #a59d9d;
+    display: flex;
+    font-size: 5px;
+    margin-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: left;
+}
+.sp h3{
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+} 
+.sp h3 a{
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}  
+ #login .btn:hover{
+    color: rgb(54, 225, 54);
+    font-size: 20px;
+    font-weight: 600;
+}
+.image{
+    width: 70%;
+    height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: px;
+}
